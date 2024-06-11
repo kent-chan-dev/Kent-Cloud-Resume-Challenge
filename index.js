@@ -12,7 +12,7 @@ fetch(apiUrl)
     console.log(data);
     document.querySelector(
       "p#viewscounter"
-    ).innerHTML = `There are ${data["views"]} views`;
+    ).innerHTML = `You are ${data["views"]}th viewer`;
   })
   .catch((error) => {
     console.error("Error:", error);
