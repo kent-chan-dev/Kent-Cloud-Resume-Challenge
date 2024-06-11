@@ -2,7 +2,7 @@ name: Github Actions for Kent's Cloud Resume
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   update-latest-files:
